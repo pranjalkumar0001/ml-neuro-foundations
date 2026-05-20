@@ -10,7 +10,7 @@ def neuron(weights, inputs, bias):
 
 #test
 inputs = [1.0, 2.0, 3.0]
-weights = [0,0,0]
-bias = 0.0
+weights = [2,0.55,-3.4]
+bias = 5.4
 output = neuron(weights, inputs, bias)
 print(f"output = {output}")
